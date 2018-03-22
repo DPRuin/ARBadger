@@ -14,6 +14,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
+    // MARK: - UI Elements
+    var focusSquare = FocusSquare()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,6 +32,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Set the scene to the view
         sceneView.scene = scene
+        sceneView.scene.rootNode.addChildNode(focusSquare)
     }
     
     override func viewWillAppear(_ animated: Bool) {

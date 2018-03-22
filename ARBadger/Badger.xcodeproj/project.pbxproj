@@ -16,6 +16,7 @@
 		7EF58C4420638DB3007ADFBC /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF58C4220638DB3007ADFBC /* FocusSquare.swift */; };
 		7EF58C4520638DB3007ADFBC /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF58C4320638DB3007ADFBC /* FocusSquareSegment.swift */; };
 		7EF58C4820638DEC007ADFBC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF58C4720638DEC007ADFBC /* Utilities.swift */; };
+		7EF58C4A2063957A007ADFBC /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF58C492063957A007ADFBC /* StatusViewController.swift */; };
 		94683CD71CF487E600DFC25C /* BobHUD.png in Resources */ = {isa = PBXBuildFile; fileRef = 94683CD61CF487E600DFC25C /* BobHUD.png */; };
 		9496D5151CFDC6D40077931D /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9496D5141CFDC6D40077931D /* launchScreen.png */; };
 		9C07A2461CDA0419007AA11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07A2451CDA0419007AA11E /* AppDelegate.swift */; };
@@ -42,6 +43,7 @@
 		7EF58C4220638DB3007ADFBC /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
 		7EF58C4320638DB3007ADFBC /* FocusSquareSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
 		7EF58C4720638DEC007ADFBC /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		7EF58C492063957A007ADFBC /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 		94683CD61CF487E600DFC25C /* BobHUD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BobHUD.png; sourceTree = "<group>"; };
 		9496D5141CFDC6D40077931D /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
 		9C07A2421CDA0419007AA11E /* Badger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Badger.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,10 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				7E865F7B206386D000A416A8 /* AppDelegate.swift */,
+				7E865F7F206386D000A416A8 /* ViewController.swift */,
+				7EF58C492063957A007ADFBC /* StatusViewController.swift */,
 				7EF58C4620638DEC007ADFBC /* Utilities */,
 				7EF58C4120638DB3007ADFBC /* Focus Square */,
 				7E865F7D206386D000A416A8 /* art.scnassets */,
-				7E865F7F206386D000A416A8 /* ViewController.swift */,
 				7E865F81206386D000A416A8 /* Main.storyboard */,
 				7E865F84206386D000A416A8 /* Assets.xcassets */,
 				7E865F86206386D000A416A8 /* LaunchScreen.storyboard */,
@@ -297,6 +300,7 @@
 				7EF58C4420638DB3007ADFBC /* FocusSquare.swift in Sources */,
 				7E865F7C206386D000A416A8 /* AppDelegate.swift in Sources */,
 				7EF58C4820638DEC007ADFBC /* Utilities.swift in Sources */,
+				7EF58C4A2063957A007ADFBC /* StatusViewController.swift in Sources */,
 				7EF58C4520638DB3007ADFBC /* FocusSquareSegment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
